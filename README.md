@@ -117,17 +117,6 @@ The current Spotify scopes requested by the app are:
 user-library-read user-top-read user-read-recently-played playlist-modify-public
 ```
 
-## Current testing status
-
-- `tests/` only contains `__init__.py`
-- There are no implemented unit or integration tests yet
-- `poetry.lock` includes transitive references to `pytest`, but the project itself does not currently define runnable test coverage
-
-So if someone asks "how do I test this project?", the honest answer right now is:
-
-- For functional testing: run the Streamlit app locally with your own Spotify app credentials and database
-- For automated testing: the test suite still needs to be built
-
 ## Project structure
 
 - [streamlit_app.py](/Users/darius/Documents/harmonizr/src/harmonizr/streamlit_app.py): app entry point
